@@ -63,7 +63,7 @@ const CartMenu = () => {
               <Box key={`${item.attributes.name}-${item.attributes.id}`}>
                 <FlexBox p="15px 0">
                   <Box flex="1 1 40%">
-                    <img src={`http://localhost:1337${item?.attributes?.image?.data?.attributes?.formates?.medium?.url}`} alt={item?.name} width="123px" height="164px" />
+                    <img src={`http://localhost:1337${item.attributes.image.data.attributes.formats.medium.url}`} alt={item?.name} width="123px" height="164px" />
                   </Box>
                   <Box flex="1 1 60%">
 
@@ -78,7 +78,7 @@ const CartMenu = () => {
                     </FlexBox>
                     <Typography>{item.attributes.shortDescription}</Typography>
 
-                    {/* count  */}
+                    {/* COUNT  */}
                     <FlexBox m="15px 0">
                       <Box
                         display="flex"

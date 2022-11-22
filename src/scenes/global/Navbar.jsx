@@ -31,7 +31,7 @@ const Navbar = () => {
         justifyContent="space-between"
       >
         <Box onClick={() => navigate('/')} sx={{ "&:hover": { cursor: "pointer" } }} color={shades.secondary[500]}>
-          Ecommerce
+          ECOMMERCE
         </Box>
         <Box
           display="flex"
